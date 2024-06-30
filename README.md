@@ -2,6 +2,10 @@
 
 A mortgage repayment calculator built using Next.js and Tailwind CSS. 
 
+## Demo
+
+https://farisk-mortgage-calc.vercel.app/
+
 ## Features
 
 - **Input Fields**: Users can input mortgage amount, term (in years), and interest rate.
@@ -31,6 +35,4 @@ A mortgage repayment calculator built using Next.js and Tailwind CSS.
     ```
 4. Open http://localhost:3000 to view the application
 
-## Demo
 
-https://farisk-mortgage-calc.vercel.app/
