@@ -30,3 +30,7 @@ A mortgage repayment calculator built using Next.js and Tailwind CSS.
     npm run dev
     ```
 4. Open http://localhost:3000 to view the application
+
+## Demo
+
+https://farisk-mortgage-calc.vercel.app/
