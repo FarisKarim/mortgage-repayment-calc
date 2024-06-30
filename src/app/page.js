@@ -109,14 +109,14 @@ export default function Home() {
             </button>
           </div>
           <p className="text-sm text-slate-500 mb-1">Mortgage Amount</p>
-          <div className={`flex w-full border mb-1 focus:border-none focus-within:ring focus-within:ring-lime hover:border-black rounded-lg ${error.mortgageAmount ? "border-red" : "border-slate-500"} `}>
-            <div className={`w-12 text-center text-lg p-2 rounded-tl-lg rounded-bl-lg ${error.mortgageAmount ? "bg-red text-white" : "bg-slate-100 text-slate-700"}`}>
+          <div className={`group flex w-full border mb-1 focus:border-none focus-within:border-lime hover:border-black rounded-lg ${error.mortgageAmount ? "border-red" : "border-slate-500"} `}>
+            <div className={` w-12 text-center text-lg p-2 rounded-tl-lg rounded-bl-lg ${error.mortgageAmount ? "bg-red text-white" : "bg-slate-100 text-slate-700"} group-focus-within:bg-lime group-focus-within:text-white`}>
               £
             </div>
             <input
               value={mortgageAmount}
               onChange={(e) => setMortgageAmount(e.target.value)}
-              className="w-full px-3 rounded-br-lg focus:outline-none focus:border-lime rounded-tr-lg h-11"
+              className="w-full px-3 rounded-br-lg focus:outline-none rounded-tr-lg h-11"
             />
           </div>
           <div className="h-4 sm:mb-4">
