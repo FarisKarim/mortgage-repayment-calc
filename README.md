@@ -11,8 +11,8 @@ A mortgage repayment calculator built using Next.js and Tailwind CSS.
 
 ## Technologies Used
 
-- **Next.js**: React framework for building the application.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Next.js**
+- **Tailwind CSS**
 
 ## Installation
 
